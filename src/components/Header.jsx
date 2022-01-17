@@ -1,8 +1,16 @@
-import React from "react";
-import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material";
+import React, { useEffect, useState } from "react";
+import {
+  AppBar,
+  Box,
+  Collapse,
+  IconButton,
+  Toolbar,
+  Typography,
+} from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import SortIcon from "@mui/icons-material/Sort";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link as Scroll } from "react-scroll";
 
 const useStyles = makeStyles({
   rootBox: {
@@ -66,6 +74,10 @@ const useStyles = makeStyles({
 
 function Header() {
   const classes = useStyles();
+  const [checked, setChecked] = useState(false);
+  useEffect(() => {
+    setChecked(true);
+  }, []);
   return (
     <Box component="div" className={classes.rootBox}>
       <AppBar className={classes.appBar} elevation={0} color="transparent">
@@ -81,19 +93,23 @@ function Header() {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <Box component="div" className={classes.welcomeBox}>
-        <Typography
-          variant="h1"
-          className={`${classes.welcomeTitle} ${classes.island}`}
-        >
-          Welcome to
-          <br />
-          My<span>Island.</span>
-        </Typography>
-        <IconButton>
-          <ExpandMoreIcon className={classes.iconGoDown} />
-        </IconButton>
-      </Box>
+      <Collapse in={checked} {...(checked ? { timeout: 2000 } : {})}>
+        <Box component="div" className={classes.welcomeBox}>
+          <Typography
+            variant="h1"
+            className={`${classes.welcomeTitle} ${classes.island}`}
+          >
+            Welcome to
+            <br />
+            My<span>Island.</span>
+          </Typography>
+          <Scroll to="page-to-visit-card-Media" smooth={true}>
+            <IconButton>
+              <ExpandMoreIcon className={classes.iconGoDown} />
+            </IconButton>
+          </Scroll>
+        </Box>
+      </Collapse>
     </Box>
   );
 }

@@ -31,7 +31,7 @@ const useStyles = makeStyles({
     },
   },
   gridContainer: {
-    // padding: "180px 0px",
+    padding: "100px 0px",
   },
 });
 

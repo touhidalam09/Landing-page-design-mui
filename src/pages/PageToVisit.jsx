@@ -12,7 +12,7 @@ const useStyles = makeStyles({
 function PageToVisit() {
   const classes = useStyles();
   return (
-    <Container className={classes.pageToVisit}>
+    <Container className={classes.pageToVisit} id="page-to-visit-card-Media">
       <ImgMediaCard items={cardData.getAllInformationAboutProject()} />
     </Container>
   );
