@@ -1,0 +1,51 @@
+export const getAllInformationAboutProject = () => [
+  {
+    id: 1,
+    title: "Project 1",
+    description: "Lizards are a widespread group of mate reptiles, with over",
+    imageUrl: process.env.PUBLIC_URL + "/assets/img/island1.jpg",
+    time: 1500,
+  },
+  {
+    id: 2,
+    title: "Project 2",
+    description: "Lizards are a widespread group of mate reptiles, with over",
+    imageUrl: process.env.PUBLIC_URL + "/assets/img/island2.jpg",
+    time: 1500,
+  },
+  {
+    id: 3,
+    title: "Project 3",
+    description: "Lizards are a widespread group of mate reptiles, with over",
+    imageUrl: process.env.PUBLIC_URL + "/assets/img/island3.jpg",
+    time: 1500,
+  },
+  {
+    id: 4,
+    title: "Project 4",
+    description: "Lizards are a widespread group of mate reptiles, with over",
+    imageUrl: process.env.PUBLIC_URL + "/assets/img/island1.jpg",
+    time: 1500,
+  },
+  {
+    id: 5,
+    title: "Project 5",
+    description: "Lizards are a widespread group of mate reptiles, with over",
+    imageUrl: process.env.PUBLIC_URL + "/assets/img/island2.jpg",
+    time: 1500,
+  },
+  {
+    id: 6,
+    title: "Project 6",
+    description: "Lizards are a widespread group of mate reptiles, with over",
+    imageUrl: process.env.PUBLIC_URL + "/assets/img/island3.jpg",
+    time: 1500,
+  },
+  {
+    id: 7,
+    title: "Project 7",
+    description: "Lizards are a widespread group of mate reptiles, with over",
+    imageUrl: process.env.PUBLIC_URL + "/assets/img/island1.jpg",
+    time: 1500,
+  },
+];

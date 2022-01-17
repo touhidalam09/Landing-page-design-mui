@@ -2,6 +2,7 @@ import { CssBaseline } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
 import Header from "../components/Header";
+import PageToVisit from "../pages/PageToVisit";
 
 const useStyles = makeStyles({
   rootApp: {
@@ -17,6 +18,7 @@ function App() {
     <div className={classes.rootApp}>
       <CssBaseline />
       <Header />
+      <PageToVisit />
     </div>
   );
 }

@@ -22,11 +22,18 @@ const useStyles = makeStyles({
   },
   appBarTitle: {
     flexGrow: "1",
+    "&.MuiTypography-root": {
+      fontSize: "1.8rem",
+    },
   },
   island: {
     color: "#fff",
     "& span": {
       color: "#5AFF3D",
+    },
+    "&.MuiTypography-root": {
+      fontFamily: "Nunito",
+      fontWeight: "bold",
     },
   },
   icon: {
@@ -81,7 +88,7 @@ function Header() {
         >
           Welcome to
           <br />
-          My<span>Islam.</span>
+          My<span>Island.</span>
         </Typography>
         <IconButton>
           <ExpandMoreIcon className={classes.iconGoDown} />
