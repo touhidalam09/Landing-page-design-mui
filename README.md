@@ -10,20 +10,25 @@
  > - React-Scroll
    
 ## Third Party Package
-- ### React JS :
-    - npx create-react-app /my-app
-- ### MUI : 
-    - npm install @mui/material
-    - npm install @mui/style
-    - npm install @mui/icons-material
-- ### React-Scroll : 
-    - npm i react-scroll
-
+ - ### React JS :
+    ```
+    npx create-react-app /my-app
+    ```
+ - ### MUI : 
+    ```
+    npm install @mui/material
+    npm install @mui/style
+    npm install @mui/icons-material
+    ```
+ - ### React-Scroll : 
+    ```
+    npm i react-scroll
+    ```
 
 ## Branch Details
-- ### `main :`
-  - Initialize setup project
+  - ### `main :`
+    - Initialize setup project
 
 ## Commit Information
-- ### `main : ` 
-   - 1st commit ---npm install create-react-app, mui, mui-style, mui-icon
+  - ### `main : ` 
+    - 1st commit ---npm install create-react-app, mui, mui-style, mui-icon
