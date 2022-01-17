@@ -1,3 +1,4 @@
+import { CssBaseline } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
 import Header from "../components/Header";
@@ -14,6 +15,7 @@ function App() {
   const classes = useStyles();
   return (
     <div className={classes.rootApp}>
+      <CssBaseline />
       <Header />
     </div>
   );

@@ -46,7 +46,7 @@ const useStyles = makeStyles({
       fontSize: "4.5rem",
     },
   },
-  iconArrowDown: {
+  iconGoDown: {
     color: "#fff",
     "&.MuiSvgIcon-root": {
       fontSize: "3.5rem",
@@ -84,7 +84,7 @@ function Header() {
           My<span>Islam.</span>
         </Typography>
         <IconButton>
-          <ExpandMoreIcon className={classes.iconArrowDown} />
+          <ExpandMoreIcon className={classes.iconGoDown} />
         </IconButton>
       </Box>
     </Box>
