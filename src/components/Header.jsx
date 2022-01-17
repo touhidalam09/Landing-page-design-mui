@@ -79,7 +79,7 @@ function Header() {
     setChecked(true);
   }, []);
   return (
-    <Box component="div" className={classes.rootBox}>
+    <Box component="div" className={classes.rootBox} id="header">
       <AppBar className={classes.appBar} elevation={0} color="transparent">
         <Toolbar className={classes.appBarWrapper}>
           <Typography
