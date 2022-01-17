@@ -1,8 +1,22 @@
+import { makeStyles } from "@mui/styles";
 import React from "react";
-import "./App.css";
+import Header from "../components/Header";
 
+const useStyles = makeStyles({
+  rootApp: {
+    minHeight: "100vh",
+    backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/img/bg.jpg"})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  },
+});
 function App() {
-  return <div className="App"></div>;
+  const classes = useStyles();
+  return (
+    <div className={classes.rootApp}>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
