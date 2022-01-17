@@ -28,7 +28,9 @@
 ## Branch Details
   - ### `main :`
     - Initialize setup project
-
-## Commit Information
-  - ### `main : ` 
-    - 1st commit ---npm install create-react-app, mui, mui-style, mui-icon
+  - ### `header :`
+    - AppBar design, Welcome Message Design
+  - ### `cardDesign :`
+    - Mui Card design and display in grid system, Service file added who carray card informaion
+  - ### `animation :`
+    - React-scroll installed, - Welcome message added effect MUI-Collapse useing, - Scroll to card-page using react-scroll, - used a useLayoutEffect hook on useWindowsPosition file which after clicked scroll button godown and card animated.
