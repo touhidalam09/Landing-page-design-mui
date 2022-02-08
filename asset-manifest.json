@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/landing-page-mui/static/css/main.78970371.css",
+    "main.js": "/landing-page-mui/static/js/main.e3cf20ad.js",
+    "static/js/787.91451b91.chunk.js": "/landing-page-mui/static/js/787.91451b91.chunk.js",
+    "index.html": "/landing-page-mui/index.html",
+    "main.78970371.css.map": "/landing-page-mui/static/css/main.78970371.css.map",
+    "main.e3cf20ad.js.map": "/landing-page-mui/static/js/main.e3cf20ad.js.map",
+    "787.91451b91.chunk.js.map": "/landing-page-mui/static/js/787.91451b91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78970371.css",
+    "static/js/main.e3cf20ad.js"
+  ]
+}
